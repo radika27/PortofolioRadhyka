@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radhyka Galih Pranata - GIS Specialist Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300" id="sidebar">
+        <div class="p-6">
+            <div class="text-center mb-8">
+                <!-- Profile Photo in Sidebar -->
+                <div class="profile-photo-sidebar">
+                    <img src="images\foto-diri-semeru-1.jpeg" alt="Radhyka Galih Pranata" class="profile-photo-sidebar">
+                    <!-- Fallback emoji jika foto belum ada -->
+                </div>
+                <h2 class="font-bold text-lg text-slate-800">Radhyka Galih Pranata</h2>
+                <p class="text-sm text-slate-600">GIS Specialist</p>
+            </div>
+            
+            <ul class="space-y-2">
+                <li><a href="#home" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="home">🏠 <span class="ml-3">Beranda</span></a></li>
+                <li><a href="#about" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="about">👨‍💻 <span class="ml-3">Tentang Saya</span></a></li>
+                <li><a href="#experience" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="experience">💼 <span class="ml-3">Pengalaman</span></a></li>
+                <li><a href="#education" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="education">🎓 <span class="ml-3">Pendidikan</span></a></li>
+                <li><a href="#organization" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="organization">🤝 <span class="ml-3">Organisasi</span></a></li>
+                <li><a href="#certifications" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="certifications">📜 <span class="ml-3">Sertifikasi</span></a></li>
+                <li><a href="#projects" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="projects">🚀 <span class="ml-3">Proyek</span></a></li>
+                <li><a href="#skills" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="skills">⚙️ <span class="ml-3">Keahlian</span></a></li>
+                <li><a href="#contact" class="nav-link flex items-center p-3 rounded-lg hover:bg-slate-100 transition-colors" data-section="contact">📬 <span class="ml-3">Kontak</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button class="lg:hidden fixed top-4 left-4 z-50 bg-white p-2 rounded-lg shadow-lg" id="menuToggle">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+    </button>
+
+    <!-- Main Content -->
+    <main class="lg:ml-64 min-h-screen">
+        <!-- Home Section -->
+        <section id="home" class="section min-h-screen gradient-bg grid-pattern flex items-center justify-center relative overflow-hidden">
+            <div class="absolute top-20 right-20 drone-float text-6xl opacity-30">🚁</div>
+            <div class="absolute bottom-20 left-20 map-pulse text-4xl opacity-40">🗺️</div>
+            <div class="absolute top-1/2 left-10 text-3xl opacity-20">📡</div>
+            
+            <div class="text-center text-white z-10 px-6">
+                <div class="mb-8">
+                    <!-- Main Profile Photo -->
+                    <div class="mb-8">
+                    <div class="w-32 h-32 mx-auto mb-6 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-6xl">
+                        🌍
+                    </div>
+                    <h1 class="text-5xl lg:text-6xl font-bold mb-4">Radhyka Galih Pranata</h1>
+                    <p class="text-xl lg:text-2xl mb-8 opacity-90">GIS Specialist | Map Analyst | Drone Pilot</p>
+                </div>
+                
+                <div class="flex flex-wrap justify-center gap-4 mb-12">
+                    <a href="mailto:radikagalih27@gmail.com" class="bg-white/20 backdrop-blur-sm hover:bg-white/30 px-6 py-3 rounded-full transition-all duration-300 flex items-center">
+                        📧 <span class="ml-2">Email</span>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=.&text=%F0%9F%8C%8DHallo%20saya%20tertarik%20untuk%20membahas%20kerja%20sama%20dengan%20Anda%20di%20bidang%20GIS%20dan%20pemetaan" class="bg-white/20 backdrop-blur-sm hover:bg-white/30 px-6 py-3 rounded-full transition-all duration-300 flex items-center">
+                        💬 <span class="ml-2">WhatsApp</span>
+                    </a>
+                    <a href="https://linkedin.com/in/radhyka-galih-pranata-b78249209" class="bg-white/20 backdrop-blur-sm hover:bg-white/30 px-6 py-3 rounded-full transition-all duration-300 flex items-center">
+                        🔗 <span class="ml-2">LinkedIn</span>
+                    </a>
+                </div>
+                
+                <div class="animate-bounce">
+                    <svg class="w-8 h-8 mx-auto text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section py-20 px-6 bg-white relative overflow-hidden">
+            <!-- Background Photo -->
+            <div class="about-background">
+                <img src="images/background-about.jpg" alt="Background" class="background-img">
+            </div>
+            
+            <div class="max-w-4xl mx-auto relative z-10">
+                <h2 class="text-4xl font-bold text-center mb-12 text-slate-800">👨‍💻 Tentang Saya</h2>
+                
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <p class="text-lg leading-relaxed text-slate-600 mb-6">
+                            Berpengalaman dalam Sistem Informasi Geografis (GIS) 🛰️, pemetaan drone 🚁, dan analisis spasial 📊. Lulusan S1 Geografi Universitas Muhammadiyah Surakarta (2023). Berfokus pada pemanfaatan data spasial untuk pengambilan keputusan, monitoring keberlanjutan 🌱, dan pengembangan teknologi pemetaan modern.
+                        </p>
+                        
+                        <div class="grid grid-cols-2 gap-4 mt-8">
+                            <div class="text-center p-4 bg-slate-50 rounded-lg">
+                                <div class="text-3xl mb-2">🛰️</div>
+                                <p class="font-semibold">GIS Analysis</p>
+                            </div>
+                            <div class="text-center p-4 bg-slate-50 rounded-lg">
+                                <div class="text-3xl mb-2">🚁</div>
+                                <p class="font-semibold">Drone Mapping</p>
+                            </div>
+                            <div class="text-center p-4 bg-slate-50 rounded-lg">
+                                <div class="text-3xl mb-2">📡</div>
+                                <p class="font-semibold">Remote Sensing</p>
+                            </div>
+                            <div class="text-center p-4 bg-slate-50 rounded-lg">
+                                <div class="text-3xl mb-2">💻</div>
+                                <p class="font-semibold">Spatial Tech</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <!-- About Section Photo -->
+                        <div class="profile-photo-about">
+                            <img src="images\foto-diri-ngawi-4.jpeg" alt="Radhyka Galih Pranata" class="profile-photo-about">
+                            </div>
+                        <p class="text-slate-600 italic mt-6">"Mengubah data spasial menjadi solusi nyata"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section py-20 px-6 bg-slate-50">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-slate-800">💼 Pengalaman</h2>
+                
+                <div class="space-y-8">
+                    <div class="card-hover bg-white p-8 rounded-xl shadow-lg">
+                        <div class="flex items-start gap-6">
+                            <div class="text-4xl">🛰️</div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-slate-800 mb-2">Map Analyst – Enveritas</h3>
+                                <p class="text-teal-600 font-semibold mb-4">2024 – 2025</p>
+                                <ul class="space-y-2 text-slate-600">
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Analisis area pertanian menggunakan citra satelit 🌾🛰️</li>
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Pengembangan machine learning untuk klasifikasi lahan 🤖</li>
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Monitoring deforestasi untuk kepatuhan EUDR 🌳</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-hover bg-white p-8 rounded-xl shadow-lg">
+                        <div class="flex items-start gap-6">
+                            <div class="text-4xl">🚚</div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-slate-800 mb-2">Koordinator Lapangan – PT. Jasa Prima Logistik Bulog</h3>
+                                <p class="text-teal-600 font-semibold mb-4">2023</p>
+                                <ul class="space-y-2 text-slate-600">
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Mengatur distribusi logistik 🚚</li>
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Merancang rute & transportasi 📍</li>
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Memastikan rantai pasok efisien ⚡</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-hover bg-white p-8 rounded-xl shadow-lg">
+                        <div class="flex items-start gap-6">
+                            <div class="text-4xl">🌋</div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-slate-800 mb-2">Operator GIS – BNPB</h3>
+                                <p class="text-teal-600 font-semibold mb-4">2023</p>
+                                <ul class="space-y-2 text-slate-600">
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Mendukung penyusunan rencana kontinjensi bencana 🌋</li>
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Pemetaan rute evakuasi darurat 🚨</li>
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Digitalisasi data spasial untuk mitigasi 📊</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-hover bg-white p-8 rounded-xl shadow-lg">
+                        <div class="flex items-start gap-6">
+                            <div class="text-4xl">🚁</div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-slate-800 mb-2">Pilot Drone – CV. Djsamerlang Consultant</h3>
+                                <p class="text-teal-600 font-semibold mb-4">2022 – 2023</p>
+                                <ul class="space-y-2 text-slate-600">
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Pemetaan area dengan UAV 🚁</li>
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Pengolahan data drone untuk analisis spasial 🗺️</li>
+                                    <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Mendukung proyek lapangan berbasis geospasial 🔍</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section py-20 px-6 bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-slate-800">🎓 Pendidikan</h2>
+                
+                <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-8 rounded-xl shadow-lg text-center">
+                    <div class="text-6xl mb-6">🌍</div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">Universitas Muhammadiyah Surakarta</h3>
+                    <p class="text-teal-600 font-semibold mb-2">S1 Geografi</p>
+                    <p class="text-slate-600">2019 – 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Organization Section -->
+        <section id="organization" class="section py-20 px-6 bg-slate-50">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-slate-800">🤝 Organisasi</h2>
+                
+                <div class="card-hover bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-start gap-6">
+                        <div class="text-4xl">⛰️</div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold text-slate-800 mb-2">KMPA Giri Bahama – Fakultas Geografi</h3>
+                            <p class="text-teal-600 font-semibold mb-4">2019–2023</p>
+                            <ul class="space-y-2 text-slate-600">
+                                <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Kegiatan ekspedisi gunung ⛰️</li>
+                                <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Speleologi & pemetaan gua 🕳️</li>
+                                <li class="flex items-center"><span class="text-green-500 mr-2">🔹</span> Pelatihan navigasi & survival 🧭</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section py-20 px-6 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-slate-800">📜 Sertifikasi</h2>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-6 rounded-xl shadow-lg text-center">
+                        <div class="text-4xl mb-4">🛰️</div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Operator Utama GIS</h3>
+                        <p class="text-teal-600 font-semibold">2022</p>
+                    </div>
+                    
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-6 rounded-xl shadow-lg text-center">
+                        <div class="text-4xl mb-4">🚁</div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Akuisisi & Pemrosesan Data UAV</h3>
+                        <p class="text-teal-600 font-semibold">2022</p>
+                    </div>
+                    
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-6 rounded-xl shadow-lg text-center">
+                        <div class="text-4xl mb-4">🌐</div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">GIS untuk Perencanaan Spasial</h3>
+                        <p class="text-teal-600 font-semibold">2022</p>
+                    </div>
+                    
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-6 rounded-xl shadow-lg text-center">
+                        <div class="text-4xl mb-4">🗺️</div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Pemetaan Drone Dasar</h3>
+                        <p class="text-teal-600 font-semibold">2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section py-20 px-6 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-slate-800">🚀 Proyek WebGIS</h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-8 rounded-xl shadow-lg">
+                        <div class="text-center mb-6">
+                            <div class="text-6xl mb-4">⛰️</div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-2">WebGIS Gunung Pulau Jawa</h3>
+                            <p class="text-slate-600 mb-4">Pemetaan interaktif gunung-gunung di Pulau Jawa dengan informasi detail ketinggian, lokasi, dan karakteristik geografis</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">🗺️ Interactive Map</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">📊 Data Visualization</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">🌍 Geospatial</span>
+                        </div>
+                        <a href="https://radika27.github.io/Webgis-gunung-pulau-jawa/" target="_blank" class="w-full bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg transition-colors flex items-center justify-center">
+                            🔗 <span class="ml-2">Lihat Proyek</span>
+                        </a>
+                    </div>
+
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-8 rounded-xl shadow-lg">
+                        <div class="text-center mb-6">
+                            <div class="text-6xl mb-4">📈</div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-2">KML & Elevation Analysis</h3>
+                            <p class="text-slate-600 mb-4">Aplikasi analisis elevasi dan visualisasi data KML untuk pemodelan topografi dan analisis ketinggian terrain</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">📊 Elevation Model</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">🗂️ KML Processing</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">📐 Topography</span>
+                        </div>
+                        <a href="https://radika27.github.io/KMLandElevation/" target="_blank" class="w-full bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg transition-colors flex items-center justify-center">
+                            🔗 <span class="ml-2">Lihat Proyek</span>
+                        </a>
+                    </div>
+
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-8 rounded-xl shadow-lg">
+                        <div class="text-center mb-6">
+                            <div class="text-6xl mb-4">📍</div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-2">Point GIS Management</h3>
+                            <p class="text-slate-600 mb-4">Sistem manajemen titik koordinat GIS dengan fitur input, edit, dan visualisasi data spasial berbasis web</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">📍 Point Data</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">✏️ Data Management</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">🎯 Coordinate System</span>
+                        </div>
+                        <a href="https://radika27.github.io/PointGIS/" target="_blank" class="w-full bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg transition-colors flex items-center justify-center">
+                            🔗 <span class="ml-2">Lihat Proyek</span>
+                        </a>
+                    </div>
+
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-8 rounded-xl shadow-lg">
+                        <div class="text-center mb-6">
+                            <div class="text-6xl mb-4">🌐</div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-2">WebGIS Platform</h3>
+                            <p class="text-slate-600 mb-4">Platform WebGIS komprehensif dengan berbagai fitur analisis spasial, pemetaan interaktif, dan visualisasi data geospasial</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">🌐 Web Platform</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">🔧 Multi-tools</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">📊 Spatial Analysis</span>
+                        </div>
+                        <a href="https://radika27.github.io/Webgis/" target="_blank" class="w-full bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg transition-colors flex items-center justify-center">
+                            🔗 <span class="ml-2">Lihat Proyek</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center mt-12">
+                    <div class="bg-gradient-to-r from-teal-500 to-green-500 p-8 rounded-xl text-white">
+                        <h3 class="text-2xl font-bold mb-4">🛠️ Teknologi yang Digunakan</h3>
+                        <div class="flex flex-wrap justify-center gap-4">
+                            <span class="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">🗺️ Leaflet.js</span>
+                            <span class="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">🌐 OpenStreetMap</span>
+                            <span class="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">📊 Chart.js</span>
+                            <span class="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">💻 JavaScript</span>
+                            <span class="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">🎨 CSS3</span>
+                            <span class="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">📱 Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section py-20 px-6 bg-slate-50">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-slate-800">⚙️ Keahlian</h2>
+                
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-r from-teal-500 to-green-500 p-8 rounded-xl text-white">
+                        <h3 class="text-2xl font-bold mb-6 text-center">💻 Keahlian Teknis</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🛰️</div>
+                                <span class="text-sm font-medium">GIS Analysis</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🚁</div>
+                                <span class="text-sm font-medium">UAV Drone Pilot</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">📡</div>
+                                <span class="text-sm font-medium">Remote Sensing</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🗺️</div>
+                                <span class="text-sm font-medium">Spatial Analysis</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">💻</div>
+                                <span class="text-sm font-medium">ArcGIS</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🌐</div>
+                                <span class="text-sm font-medium">QGIS</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">📐</div>
+                                <span class="text-sm font-medium">AutoCAD</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🌍</div>
+                                <span class="text-sm font-medium">GlobalMapper</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-blue-500 to-teal-500 p-8 rounded-xl text-white">
+                        <h3 class="text-2xl font-bold mb-6 text-center">🤝 Keahlian Non-Teknis</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">👨‍✈️</div>
+                                <span class="text-sm font-medium">Leadership</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🤝</div>
+                                <span class="text-sm font-medium">Teamwork</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">💡</div>
+                                <span class="text-sm font-medium">Problem Solving</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🏞️</div>
+                                <span class="text-sm font-medium">Adaptasi Lapangan</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">📊</div>
+                                <span class="text-sm font-medium">Data Analysis</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🎯</div>
+                                <span class="text-sm font-medium">Project Management</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🗣️</div>
+                                <span class="text-sm font-medium">Communication</span>
+                            </div>
+                            <div class="bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg text-center">
+                                <div class="text-2xl mb-2">⚡</div>
+                                <span class="text-sm font-medium">Quick Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section py-20 px-6 bg-white">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-12 text-slate-800">📬 Kontak</h2>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                    <a href="mailto:radikagalih27@gmail.com" class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-6 rounded-xl shadow-lg block">
+                        <div class="text-4xl mb-4">📧</div>
+                        <h3 class="font-bold text-slate-800 mb-2">Email</h3>
+                        <p class="text-sm text-slate-600">radikagalih27@gmail.com</p>
+                    </a>
+                    
+                    <a href="https://api.whatsapp.com/send?phone=.&text=%F0%9F%8C%8DHallo%20saya%20tertarik%20untuk%20membahas%20kerja%20sama%20dengan%20Anda%20di%20bidang%20GIS%20dan%20pemetaan" class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-6 rounded-xl shadow-lg block">
+                        <div class="text-4xl mb-4">💬</div>
+                        <h3 class="font-bold text-slate-800 mb-2">WhatsApp</h3>
+                        <p class="text-sm text-slate-600">Chat Langsung</p>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/radhyka-galih-pranata-b78249209" class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-6 rounded-xl shadow-lg block">
+                        <div class="text-4xl mb-4">🔗</div>
+                        <h3 class="font-bold text-slate-800 mb-2">LinkedIn</h3>
+                        <p class="text-sm text-slate-600">LinkedIn Profile</p>
+                    </a>
+                    
+                    <a href="https://github.com/radika27" class="card-hover bg-gradient-to-br from-teal-50 to-green-50 p-6 rounded-xl shadow-lg block">
+                        <div class="text-4xl mb-4">💻</div>
+                        <h3 class="font-bold text-slate-800 mb-2">GitHub</h3>
+                        <p class="text-sm text-slate-600">github.com/radika27</p>
+                    </a>
+                </div>
+                
+                <div class="gradient-bg p-8 rounded-xl text-white">
+                    <h3 class="text-2xl font-bold mb-4">Mari Berkolaborasi dalam Proyek GIS 🚀🌍</h3>
+                    <p class="text-lg mb-6">Siap membantu proyek pemetaan, analisis spasial, dan teknologi drone Anda</p>
+                    <a href="mailto:radikagalih27@gmail.com" class="bg-white text-teal-600 px-8 py-3 rounded-full font-semibold hover:bg-slate-100 transition-colors inline-flex items-center">
+                        📧 <span class="ml-2">Hubungi Sekarang</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        menuToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('-translate-x-full');
+        });
+
+        // Smooth scrolling and active navigation
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('.section');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('data-section');
+                const targetSection = document.getElementById(targetId);
+                
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu
+                sidebar.classList.add('-translate-x-full');
+                
+                // Update active nav
+                navLinks.forEach(nl => nl.classList.remove('nav-active'));
+                link.classList.add('nav-active');
+            });
+        });
+
+        // Update active navigation on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('nav-active');
+                if (link.getAttribute('data-section') === current) {
+                    link.classList.add('nav-active');
+                }
+            });
+        });
+
+        // Initialize first nav item as active
+        navLinks[0].classList.add('nav-active');
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9712ba94d744b29b',t:'MTc1NTUzMzkyNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
