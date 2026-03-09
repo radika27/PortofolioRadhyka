@@ -65,7 +65,6 @@ Saya selalu terbuka untuk kolaborasi dalam proyek geospasial, otomasi data, maup
 
 ---
 ---
----
 
 <p align="center">
   <b>Radhyka Galih Pranata</b>
@@ -84,10 +83,4 @@ Saya selalu terbuka untuk kolaborasi dalam proyek geospasial, otomasi data, maup
 <p align="center">
   <br>
   <i>Turning coordinates into insights and spatial data into real-world solutions.</i>
-</p>
-</p>
-
-<p align="center">
-  <b>Radhyka Galih Pranata</b><br>
-  Dunia adalah buku, dan setiap koordinat adalah ceritanya.
 </p>
