@@ -46,17 +46,6 @@ Peta interaktif yang difokuskan pada manajemen dan visualisasi persebaran data t
 | **Drone & Photogrammetry** | Drone Piloting, Agisoft Metashape, Pix4D |
 
 ---
-
-## 📊 Statistik GitHub & Aktivitas
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=radika27&show_icons=true&theme=tokyonight&hide_border=true" alt="Statistik Radhyka" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=radika27&layout=compact&theme=tokyonight&hide_border=true" alt="Bahasa Populer" />
-</p>
-
----
-
 ## 📫 Mari Berdiskusi!
 Saya selalu terbuka untuk kolaborasi dalam proyek geospasial, otomasi data, maupun pengembangan WebGIS.
 
