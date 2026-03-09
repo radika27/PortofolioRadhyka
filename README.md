@@ -65,25 +65,8 @@ Saya selalu terbuka untuk kolaborasi dalam proyek geospasial, otomasi data, maup
 
 ---
 <p align="center">
-  <b>Radhyka Galih Pranata</b>
-  <br><br>
+
+  <b>Radhyka Galih Pranata</b><br>
+Dunia adalah buku, dan setiap koordinat adalah ceritanya. 
 </p>
-
-<p align="center">
-  <kbd>English</kbd> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <kbd>Bahasa Indonesia</kbd>
-</p>
-
----
-
-> [!NOTE]
-> **Left:** "The world is a book, and those who do not travel read only a page." — *Saint Augustine*  
->  
-> **Right:** "Dunia adalah buku, dan setiap koordinat adalah ceritanya." — *Radhyka Galih*
-
-<p align="center">
-  <br>
-  <i>Turning coordinates into insights and spatial data into real-world solutions.</i>
-</p>
-
 ---
