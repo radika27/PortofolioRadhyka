@@ -60,12 +60,18 @@ Peta interaktif yang difokuskan pada manajemen dan visualisasi persebaran data t
 ## 📫 Mari Berdiskusi!
 Saya selalu terbuka untuk kolaborasi dalam proyek geospasial, otomasi data, maupun pengembangan WebGIS.
 
-* **LinkedIn:** [linkedin.com/in/radikagalih](https://linkedin.com/in/radikagalih)
-* **GitHub:** [github.com/radika27](https://github.com/radika27)
-* **Website Portofolio:** [Portofolio Radhyka](https://radika27.github.io/PortofolioRadhyka/)
-* **Email:** [radikagalih27@gmail.com]
+* **Email:** radikagalih27@gmail.com
+* **WhatsApp:** [082132129732](https://api.whatsapp.com/send/?phone=6282132129792&text=+Hallo!!+saya+tertarik+untuk+membahas+kerja+sama+dengan+Anda+di+bidang+GIS+dan+pemetaan&type=phone_number&app_absent=0)
 
 ---
+---
 <p align="center">
-  <i>Dibuat dengan ☕ dan data spasial yang presisi.</i>
+  <i>"The world is a book, and those who do not travel read only a page."</i>
+  <br>
+  — <b>Saint Augustine</b>
+</p>
+
+<p align="center">
+  <b>Radhyka Galih Pranata</b><br>
+  Dunia adalah buku, dan setiap koordinat adalah ceritanya.
 </p>
