@@ -1,7 +1,7 @@
-# 🗺️ Radhyka Galih Pranata
+# Radhyka Galih Pranata S.Geo
 
 [![Portfolio](https://img.shields.io/badge/Check_My-Portfolio-008080?style=for-the-badge&logo=googlechrome&logoColor=white)](https://radika27.github.io/PortofolioRadhyka/)
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/radikagalih)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/radhyka-galih-pranata-b78249209)
 [![GitHub](https://img.shields.io/badge/Follow-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/radika27)
 
 ### **Geospatial Professional | WebGIS Developer | Drone Pilot**
@@ -17,7 +17,7 @@ Berikut adalah beberapa aplikasi WebGIS yang saya kembangkan untuk mempermudah a
 ### 🏔️ [TopoTrail](https://radika27.github.io/TopoTrail/)
 **Analisis Jalur Pendakian Interaktif**
 Aplikasi berbasis browser untuk menganalisis jalur pendakian secara mendalam.
-- **Fitur Utama:** Profil elevasi real-time, analisis kelas lereng (slope), dan estimasi risiko kesehatan (AMS) berdasarkan jurnal ilmiah.
+- **Fitur Utama:** Profil elevasi, analisis kelas lereng (slope), dan estimasi risiko kesehatan (AMS) berdasarkan jurnal ilmiah.
 - **Tech Stack:** Leaflet.js, Chart.js, GeoJSON Processing.
 
 ### 🗺️ [WebGIS Creator & Editor](https://radika27.github.io/Webgis/)
@@ -50,9 +50,9 @@ Peta interaktif yang difokuskan pada manajemen dan visualisasi persebaran data t
 ## 📊 Statistik GitHub & Aktivitas
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=radika27&show_icons=true&theme=tokyonight" alt="Statistik Radhyka" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=radika27&layout=compact&theme=tokyonight" alt="Bahasa Populer" />
+  <img src="https://github-readme-stats.vercel.app/api?username=radika27&show_icons=true&theme=tokyonight&hide_border=true" alt="Statistik Radhyka" />
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=radika27&layout=compact&theme=tokyonight&hide_border=true" alt="Bahasa Populer" />
 </p>
 
 ---
@@ -63,7 +63,7 @@ Saya selalu terbuka untuk kolaborasi dalam proyek geospasial, otomasi data, maup
 * **LinkedIn:** [linkedin.com/in/radikagalih](https://linkedin.com/in/radikagalih)
 * **GitHub:** [github.com/radika27](https://github.com/radika27)
 * **Website Portofolio:** [Portofolio Radhyka](https://radika27.github.io/PortofolioRadhyka/)
-* **Email:** [Kontak via LinkedIn]
+* **Email:** [radikagalih27@gmail.com]
 
 ---
 <p align="center">
